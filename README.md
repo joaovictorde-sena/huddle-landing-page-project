@@ -29,7 +29,7 @@ O projeto utiliza HTML5 e CSS3 para criar uma interface visualmente atraente e f
 
 ---
 
-##📱 Responsividade
+## 📱 Responsividade
 O layout é otimizado para dispositivos móveis, garantindo uma boa experiência em diferentes tamanhos de tela.
 
 
