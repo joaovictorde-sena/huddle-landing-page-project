@@ -1,0 +1,89 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-image: url(../images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+    min-height: 100vh;
+    color: #fff;
+
+}
+
+
+header .logo {
+    margin: 50px 0 0 95px;
+    
+}
+
+main .informacoes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.informacoes .tela-de-ilustracao  {
+    margin:75px 0 0 85px;
+    
+}
+
+.informacoes .descricao {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    
+}
+
+
+.informacoes .descricao h1 {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.descricao p {
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+ .descricao .btn {
+    width: 150px;
+    height: 50px;
+    padding: 10px 30px;
+    margin-bottom: 60px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    color: hsl(257, 40%, 49%);
+    cursor: pointer;
+}
+
+ .descricao .btn:hover {
+    color: #fff;
+    background-color: hsl(300, 69%, 71%);
+}
+
+footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+    
+}
+
+footer .redes i {
+    font-size: 20px;
+    margin: 5px
+}
+
+.redes a i {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 8px;
+    color: #fff;
+}
+
+
+
+.redes a i:hover {
+    cursor: pointer;
+    border-color: hsl(300, 69%, 71%);
+    color: hsl(300, 69%, 71%);
+}
+
