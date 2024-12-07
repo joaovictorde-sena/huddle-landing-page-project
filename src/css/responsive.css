@@ -1,8 +1,14 @@
 @media (max-width:1080px) {
 
+    header .logo {
+        max-width: 60%;
+        padding-right: 40px;
+       
+    }
     
-     .informacoes {
+     main .informacoes {
         flex-direction: column;
+        align-items: center;
         justify-content: center;
         text-align: center;
         
@@ -19,19 +25,22 @@
     }
 
     .informacoes .tela-de-ilustracao img {
-        max-width: 80%;
+        max-width: 100%;
+        padding: 5px;
+
     }
 
-    .descricao h1 {
+    .informacoes .descricao h1 {
         display: flex;
         flex-direction: column;
+        font-size: 30px;
     }
 
     .descricao p {
-        display: flex;
-
-        align-items: center;
-        text-align: center;
+        /* display: flex; */
+        font-size: 16px;
+        line-height: 20px;
+       
     }
 
     footer .redes {
@@ -39,6 +48,7 @@
         justify-content: center;
         align-items: center;
         min-width: 100vh;
+        height: auto;
 
     }
 
@@ -46,7 +56,11 @@
 }
 
 @media(max-width:520px){
-    
+ 
+    body {
+        background-image: url(/src/images/bg-mobile.svg);
+    }
+
     header {
         max-width: 100%;
     }
@@ -58,7 +72,8 @@
     }
 
     .informacoes .descricao h1 {
-        font-size: 20px;
+        font-size: 28px;
+        padding-top: 10px;
     }
 
     .informacoes .tela-de-ilustracao img {
@@ -68,10 +83,15 @@
     }
 
     footer .redes {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        position: relative;
+        bottom: 35px;
         min-width: 100%;
-        margin-bottom: 55px;
+        height: auto;
+    }
+
+    .redes li a i {
+        font-size: 20px;
+        gap: 8px;
+
     }
 }
